@@ -10,9 +10,9 @@ const TestSchema = mongoose.Schema({
   description: {
     type: String,
   },
-  //     testimage: {
-  //     type: String
-  // },
+      testimage: {
+      type: String
+  },
 });
 
 const BoardSchema = mongoose.Schema({
