@@ -11,7 +11,7 @@ const PORT =process.env.PORT || 7000;
 const URL = process.env.MONGOURL;
 
 app.use(express.json());
-const allowedOrigins = ["http://localhost:5173", "http://localhost:5174", "http://localhost:3001", "http://localhost:3000", "http://localhost:3002"];
+const allowedOrigins = ["http://localhost:5173", "http://localhost:5174", "http://localhost:3001", "http://localhost:3000", "http://localhost:3002", "https://www.gradeup.gradeup01.in"];
 
 app.use(cors({
   origin: function (origin, callback) {
